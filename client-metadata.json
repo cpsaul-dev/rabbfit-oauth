@@ -1,11 +1,11 @@
 {
   "client_id": "https://cpsaul-dev.github.io/rabbfit-oauth/client-metadata.json",
-  "client_name": "Rabbfit",
+  "client_name": "Rabb4fit",
   "client_uri": "https://cpsaul-dev.github.io/rabbfit-oauth/",
   "application_type": "native",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
-  "scope": "atproto transition:generic",
+  "scope": "atproto transition:generic transition:chat.bsky",
   "redirect_uris": ["io.github.cpsaul-dev:/oauth/bluesky"],
   "token_endpoint_auth_method": "none",
   "dpop_bound_access_tokens": true
